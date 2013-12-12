@@ -1,0 +1,5 @@
+<%= form_tag(ingredients_path) do %>
+  <%= select_tag "First Diet", options_for_select(@diets) %>
+  <%= select_tag "Second Diet", options_for_select(@diets) %>
+  <%= submit_tag 'Search' %>
+<% end %>
