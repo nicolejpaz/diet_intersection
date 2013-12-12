@@ -36,6 +36,7 @@ end
 
 group :test, :development do
   gem 'rspec-rails'
+  gem 'shoulda'
 end
 
 # Use ActiveModel has_secure_password

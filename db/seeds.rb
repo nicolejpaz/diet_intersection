@@ -1,7 +1,14 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+Diet.create([{name: "Vegan", meta_number: '386'}, 
+  {name: "Pescetarian", meta_number: '390'}, 
+  {name: "Lacto Vegetarian", meta_number: '388'}, 
+  {name: "Ovo Vegetarian", meta_number: '389'}, 
+  {name: "Sesame-Free", meta_number: '399'}, 
+  {name: "Peanut-Free", meta_number: '394'}, 
+  {name: "Tree Nut-Free", meta_number: '395'}, 
+  {name: "Seafood-Free", meta_number: '398'}, 
+  {name: "Soy-Free", meta_number: '400'}, 
+  {name: "Egg-Free", meta_number: '397'}, 
+  {name: "Wheat-Free", meta_number: '392'}, 
+  {name: "Sulfite-Free", meta_number: '401'}, 
+  {name: "Gluten-Free", meta_number: '393'}, 
+  {name: "Dairy-Free", meta_number: '396'}])
