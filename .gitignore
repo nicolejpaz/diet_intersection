@@ -13,3 +13,6 @@
 
 # Ignore the database.yml
 /config/database.yml
+
+# Ignore Yummly initializer
+/config/initializers/yummly.rb

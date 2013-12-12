@@ -1,7 +1,14 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+Diet.create([{name: "Vegan", meta_number: '386', diet_type: 'diet'}, 
+  {name: "Pescetarian", meta_number: '390', diet_type: 'diet'}, 
+  {name: "Lacto Vegetarian", meta_number: '388', diet_type: 'diet'}, 
+  {name: "Ovo Vegetarian", meta_number: '389', diet_type: 'diet'}, 
+  {name: "Sesame-Free", meta_number: '399', diet_type: 'allergy'}, 
+  {name: "Peanut-Free", meta_number: '394', diet_type: 'allergy'}, 
+  {name: "Tree Nut-Free", meta_number: '395', diet_type: 'allergy'}, 
+  {name: "Seafood-Free", meta_number: '398', diet_type: 'allergy'}, 
+  {name: "Soy-Free", meta_number: '400', diet_type: 'allergy'}, 
+  {name: "Egg-Free", meta_number: '397', diet_type: 'allergy'}, 
+  {name: "Wheat-Free", meta_number: '392', diet_type: 'allergy'}, 
+  {name: "Sulfite-Free", meta_number: '401', diet_type: 'allergy'}, 
+  {name: "Gluten-Free", meta_number: '393', diet_type: 'allergy'}, 
+  {name: "Dairy-Free", meta_number: '396', diet_type: 'allergy'}])
