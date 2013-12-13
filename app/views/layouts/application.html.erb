@@ -3,11 +3,16 @@
 <head>
   <title>DietIntersection</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
+<header>
+  <h1><span class="diet-text">Diet</span> <span class="intersection-text">Intersection</span></h1>
+  <h3>Have two diets and can't figure out what to eat? Pick two to see a sample:</h3>
+</header>
 <%= yield %>
 
 </body>
