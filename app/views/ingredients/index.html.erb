@@ -1,5 +1,6 @@
-<%= form_tag(ingredients_path) do %>
+<%= form_tag(ingredients_path, :remote => true) do %>
   <%= select_tag "First Diet", options_for_select(@diets) %>
   <%= select_tag "Second Diet", options_for_select(@diets) %>
   <%= submit_tag 'Search' %>
 <% end %>
+<div id="ingredients"></div>

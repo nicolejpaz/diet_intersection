@@ -10,6 +10,8 @@ class IngredientsController < ApplicationController
     first_diet = Ingredient.matching_ingredients(first).flatten
     second_diet = Ingredient.matching_ingredients(second).flatten
 
-    @displayed_ingredients = (first_diet & second_diet)
+    @displayed_ingredients = (first_diet & second_diet).uniq
+
+    render :partial => "display_ingredients", :locals => {:displayed_ingredients => @displayed_ingredients}, :layout => false
   end
 end
